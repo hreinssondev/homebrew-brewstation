@@ -10,4 +10,10 @@ cask "brewstation" do
   depends_on macos: ">= :ventura"
 
   app "BrewStation.app"
+
+  zap trash: [
+    "~/Library/Application Support/BrewStation",
+    "~/Library/Preferences/com.hreinssondev.brewstation.plist",
+    "~/Library/Caches/BrewStation",
+  ]
 end
