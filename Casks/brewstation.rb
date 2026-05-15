@@ -1,6 +1,6 @@
 cask "brewstation" do
   version "2.0.3"
-  sha256 "b783ab2d8df8e8ac46a397743b5962bf70b1bf86c319f7b658ca76b69e922bd0"
+  sha256 "c1ab724172b786addad0e417b0407debaf10618ab1dc8b3aa2576868f17355d4"
 
   url "https://github.com/hreinssondev/brewstation/releases/download/#{version}/BrewStation.dmg"
   name "BrewStation"
